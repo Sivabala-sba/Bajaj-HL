@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Bajaj-HL/static/css/main.e6c13ad2.css",
-    "main.js": "/Bajaj-HL/static/js/main.011fa2e2.js",
+    "main.js": "/Bajaj-HL/static/js/main.0519ccc9.js",
     "static/js/453.b34e65be.chunk.js": "/Bajaj-HL/static/js/453.b34e65be.chunk.js",
     "index.html": "/Bajaj-HL/index.html",
     "main.e6c13ad2.css.map": "/Bajaj-HL/static/css/main.e6c13ad2.css.map",
-    "main.011fa2e2.js.map": "/Bajaj-HL/static/js/main.011fa2e2.js.map",
+    "main.0519ccc9.js.map": "/Bajaj-HL/static/js/main.0519ccc9.js.map",
     "453.b34e65be.chunk.js.map": "/Bajaj-HL/static/js/453.b34e65be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.011fa2e2.js"
+    "static/js/main.0519ccc9.js"
   ]
 }
