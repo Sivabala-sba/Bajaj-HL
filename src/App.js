@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import InputForm from './components/InputForm';
+import ResponseDisplay from './components/ResponseDisplay';
+import DropdownFilter from './components/DropdownFilter';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [responseData, setResponseData] = useState(null);
+    const [filter, setFilter] = useState([]);
+
+    return (
+        <div className="App">
+            <h1>API Data Processor</h1>
+            <InputForm onResponse={setResponseData} />
+            <DropdownFilter onChange={setFilter} />
+            <ResponseDisplay data={responseData} filter={filter} />
+        </div>
+    );
 }
 
 export default App;
